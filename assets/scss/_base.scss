@@ -169,6 +169,15 @@ img {
 
 figure {
   text-align: center;
+  img {
+    width: 25%;
+  }
+  @media only screen and (min-width: 768px) {
+    img {
+      float: right;
+      margin: 0 0 2rem 2rem;
+    }
+  }
 }
 
 .wrapper {
